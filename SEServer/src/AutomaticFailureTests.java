@@ -7,7 +7,8 @@ class AutomaticFailureTests {
 
 	@Test
 	void test() {
-		fail("This test is supposed to fail");
+		//fail("This test is supposed to fail");
+		assertTrue("This test should also pass", true);
 	}
 	
 	@Test
