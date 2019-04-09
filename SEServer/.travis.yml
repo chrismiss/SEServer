@@ -1,0 +1,7 @@
+language: java
+java:
+  - 8.0
+  - 10
+before_script:
+script:
+  - src/AutomaticFailureTests.java
