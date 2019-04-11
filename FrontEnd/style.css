@@ -10,6 +10,10 @@ p a:hover {
     color: #555;
 }
 
+li {
+  display: inline;
+}
+
 input {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px;
@@ -32,7 +36,7 @@ input[type=text], input[type=password] {
   border-radius: 1px;
   color: white;
   padding: 8px 26px;
-  margin: 0 0 0 150px;
+  margin: 0 0 0 160px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
