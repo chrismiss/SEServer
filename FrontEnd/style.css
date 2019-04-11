@@ -28,9 +28,11 @@ input[type=text], input[type=password] {
 
 #login-button {
   background-color: #4081e8; /* Blue */
-  border: none;
+  border: 1px;
+  border-radius: 1px;
   color: white;
   padding: 8px 26px;
+  margin: 0 0 0 150px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
