@@ -1,3 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header, #header-inner {
+  background: transparent;
+}
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+
+}
+
 div.menu {
   position: fixed;
 }
