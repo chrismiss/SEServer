@@ -12,6 +12,19 @@ p a:hover {
 
 li {
   display: inline;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.title-text {
+  margin-right: 320px;
+}
+
+.log-in-text {
+  margin-right: 370px;
 }
 
 input {
