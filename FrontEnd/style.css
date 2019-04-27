@@ -43,6 +43,18 @@ input[type=text], input[type=password] {
     height: 35px;
 }
 
+input[type=text] {
+  margin-left: 14px;
+}
+
+input[type=password] {
+    width: 291px;
+}
+
+#username {
+
+}
+
 #login-button {
   background-color: #4081e8; /* Blue */
   border: 1px;
