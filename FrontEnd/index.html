@@ -7,6 +7,22 @@
   <title>Login to CoolSprings Fitness Center</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href='fullcalendar/core/main.css' rel='stylesheet' /> <!--- Fix links --->
+  <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+  <script src='fullcalendar/core/main.js'></script>
+  <script src='fullcalendar/daygrid/main.js'></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        plugins: [ 'dayGrid' ]
+      });
+
+      calendar.render();
+    });
+  </script>
 </head>
 <body>
   <div class="container">
