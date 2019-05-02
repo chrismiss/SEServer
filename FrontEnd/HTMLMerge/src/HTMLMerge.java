@@ -4,7 +4,7 @@ import java.io.*;
 
 public class HTMLMerge {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		ArrayList<String> list = new ArrayList<String>();
 		list.add("log-in.html");
 		list.add("calendar.html");
