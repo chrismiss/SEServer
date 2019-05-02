@@ -15,6 +15,14 @@ public class HTMLMerge {
 			System.out.println("Incorrect file name");
 			System.exit(-1);
 		}
+		Writer w = new FileWriter("index1.html");
+		// Begins write process into index.html starting with head
+		w.write("<!DOCTYPE html>");
+		w.write("<html>");
+
+		while (fin.hasNextLine()) {
+
+		}
 	}
 
 }
