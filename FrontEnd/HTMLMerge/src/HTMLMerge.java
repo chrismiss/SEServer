@@ -12,7 +12,7 @@ public class HTMLMerge {
 		listOfFiles.add("templateEnd.html");
 
 		ArrayList<String> fileList = writeTo(listOfFiles.get(0));
-		Writer w = new FileWriter("index1.html");
+		Writer w = new FileWriter("index.html");
 		for (int i = 0; i < fileList.size(); i++) {
 			w.write(fileList.get(i) + "\n");
 		}
